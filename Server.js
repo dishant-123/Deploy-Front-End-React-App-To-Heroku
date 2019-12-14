@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors')
 var bodyParser = require('body-parser');
-var arr=  require('../db.json')
+var arr=  require('./db.json')
 require('dotenv').config()
 app.use(cors());
  app.use(bodyParser.json()); 
