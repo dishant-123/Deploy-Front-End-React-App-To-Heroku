@@ -20,7 +20,7 @@
 // }
 import React, { Component } from 'react'
 import NavigationBar from './NavigationBar.js'
-import './title.css'
+// import './title.css'
 // import Logout from './LogoutPage'
  class title extends Component {
      constructor(props) {
