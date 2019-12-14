@@ -2,9 +2,9 @@
   "name": "react-node-heroku-2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./Server/server.js"
   },
   "keywords": [],
   "author": "",
