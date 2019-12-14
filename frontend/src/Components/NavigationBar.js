@@ -57,7 +57,7 @@ import axios from 'axios'
                     //     props : this.state.loggin
                     // }}/>
                     <React.Fragment >
-                        <p>this is navigation bar for LoGout</p>
+                        <p>this is navigation bar for LoGout Page</p>
                         <form onSubmit = {this.handleSubmit} method = "POST">
                             <p>Enter your email</p>
                             <input type = "text" name = "email" value  = {this.state.email} onChange  = {this.stateChanger} required/><br></br>
