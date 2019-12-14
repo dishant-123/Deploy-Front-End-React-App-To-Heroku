@@ -20,7 +20,7 @@ import axios from 'axios'
                 email : this.state.email,
                 password : this.state.password
             }
-            const response = await axios.post('http://localhost:3007/add',user);
+            const response = await axios.post('/add',user);
             // console.log(response);
             if(response.data.message==='done')
             {
