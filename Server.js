@@ -8,6 +8,11 @@ require('dotenv').config()
 app.use(cors());
  app.use(bodyParser.json()); 
  
+app.use(express.static(path.join(__dirname,'frontend','build')));
+
+ app.get('*',(req,res)=>{
+    res.sendFile(path.join(__dirname,'frontend','build','index.html'));
+})
 app.post('/add' ,(req,res) =>{
     console.log(req.body)
     const find = arr.find((info) => info.email ===req.body.email && info.password ===req.body.password);
@@ -23,9 +28,7 @@ app.post('/add' ,(req,res) =>{
         })
     }
 });
-app.get('*',(req,res)=>{
-    res.sendFile(path.join(__dirname,'frontend','build','index.html'));
-})
+
 const PORT = process.env.PORT || 3007
 app.listen(PORT, () =>{
     console.log('Connected');
