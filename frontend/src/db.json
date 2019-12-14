@@ -1,0 +1,44 @@
+{
+  "bookList": [
+    {
+      "id": 1,
+      "name": "B1",
+      "author": "A1",
+      "version": "1.1"
+    },
+    {
+      "id": 2,
+      "name": "B2",
+      "author": "A2",
+      "version": "1.2"
+    },
+    {
+      "id": 3,
+      "name": "B3",
+      "author": "A3",
+      "version": "1.3"
+    },
+    {
+      "id": 4,
+      "name": "B4",
+      "author": "A4",
+      "version": "1.4"
+    },
+    {
+      "id": 6,
+      "name": "B6",
+      "author": "A6",
+      "version": "1.6"
+    },
+    {
+      "name": "halo",
+      "author": "dsvs",
+      "id": 7
+    },
+    {
+      "name": "cds",
+      "author": "dcscd",
+      "id": 8
+    }
+  ]
+}
